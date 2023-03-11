@@ -26,14 +26,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void pausarSom(View view){
-        if(mediaPlayer != null){
+        if(mediaPlayer.isPlaying()){
             mediaPlayer.pause();
         }
     }
 
     public void pararSom(View view){
-        if(mediaPlayer != null){
+        if(mediaPlayer.isPlaying()){
             mediaPlayer.stop();
+            mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.teste);
         }
     }
 }
