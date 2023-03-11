@@ -23,6 +23,9 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2MqgagNbxsSGMSMJxuYvjb5l6hk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,9 +38,18 @@
     "RunOnceActivity.cidr.known.project.marker": "true",
     "cidr.known.project.marker": "true",
     "last_directory_selection": "D:/developer/android/androidMidias/app/src/main/res/drawable",
-    "last_opened_file_path": "D:/developer/android/androidMidias/app/src/main/res/raw"
+    "last_opened_file_path": "D:/developer/android/androidMidias/app/src/main/res/raw",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\developer\android\androidMidias\app\src\main\res\raw" />
+      <recent name="D:\developer\android\androidMidias\app\src\main\res\drawable" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="androidMidias.app.main" />

@@ -7,11 +7,48 @@
     tools:context=".MainActivity">
 
     <SeekBar
-        android:id="@+id/seekBar"
-        android:layout_width="wrap_content"
+        android:id="@+id/seekVolume"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/btnPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:onClick="executarSom"
+        app:layout_constraintEnd_toStartOf="@+id/btnPause"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekVolume"
+        app:srcCompat="@drawable/play" />
+
+    <ImageView
+        android:id="@+id/btnPause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:onClick="pausarSom"
+        app:layout_constraintEnd_toStartOf="@+id/btnStop"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnPlay"
+        app:layout_constraintTop_toBottomOf="@+id/seekVolume"
+        app:srcCompat="@drawable/pause" />
+
+    <ImageView
+        android:id="@+id/btnStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:onClick="pararSom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnPause"
+        app:layout_constraintTop_toBottomOf="@+id/seekVolume"
+        app:srcCompat="@drawable/stop" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
